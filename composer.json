@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "zngue/larayui",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "layui+laravel后台框架",
     "keywords": [
         "framework",
         "laravel"
