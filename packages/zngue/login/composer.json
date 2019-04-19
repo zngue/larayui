@@ -1,0 +1,28 @@
+{
+    "name": "zngue/login",
+    "description": "larayui login",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.2",
+        "illuminate/support": "5.*",
+        "tymon/jwt-auth": "1.*@rc"
+    },
+    "author": {
+        "name": "zngfue@163.com",
+        "email": "ngfue@163.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zngue\\Login\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zngue\\Login\\LoginServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}

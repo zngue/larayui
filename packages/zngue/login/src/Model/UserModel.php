@@ -1,12 +1,11 @@
 <?php
 
-namespace App;
-
+namespace Zngue\Login\Model;
+use Illuminate\Foundation\Auth\User as AuthUser;
 use Illuminate\Notifications\Notifiable;
-use Illuminate\Foundation\Auth\User as Authenticatable;
-
-class User extends Authenticatable
+class UserModel extends AuthUser
 {
+
     use Notifiable;
 
     /**
@@ -35,4 +34,5 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
 }
